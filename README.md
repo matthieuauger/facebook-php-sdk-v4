@@ -75,7 +75,7 @@ $ ./vendor/bin/phpunit
 By default the tests will send live HTTP requests to the Graph API. If you are without an internet connection you can skip these tests by excluding the `integration` group.
 
 ```bash
-$ ./vendor/bin/phpunit --exclude-group integration
+$ ./bin/phpunit --exclude-group integration
 ```
 
 
